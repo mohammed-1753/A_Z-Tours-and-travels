@@ -1,0 +1,136 @@
+body{
+    font-family: 'Akaya Kanadaka', cursive;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+#logo {
+    background-image:url(images/orange\ texture.jpg) ;
+}
+
+#para {
+    font-family: 'Akaya Kanadaka', cursive;
+    background-color:whitesmoke ;
+    text-align: center;
+    color: blue ;
+    font-size: x-large;
+}
+.row {
+  display: flex;
+  float: left;
+  width:100%;
+  padding: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-image:url(images/logo\ wallpaper.jpg) ;
+  text-align: center;
+  color: whitesmoke;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.footer {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+
+}
+ 
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2em;
+  
+  }
+ 
+  .fa-instagram {
+    background: #be4fa3;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .h2 {
+      text-align: center;
+  }
+  #cities{
+    text-align: center;
+    background-image: url(images/green\ texture.jpg);
+    color:whitesmoke;
+  }
+  table, th, td {
+    border: 1px solid black;
+    font-family:'Krona One', sans-serif;
+    text-align: center;
+    width: 100%;
+  }
+  .footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    width: 50px;
+  }
+  .location{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:brown;
+    color: whitesmoke;
+  }
+ .feedback {
+   margin-left: 45%;
+   margin-right: 50%;
+   font-size: x-large;
+ }
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: gray;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+#profile{
+  background-color:brown;
+}
+h1 {
+  font-size: x-large;
+}
