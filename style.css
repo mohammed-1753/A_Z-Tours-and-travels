@@ -6,7 +6,7 @@ body{
     scroll-behavior: smooth;
 }
 #logo {
-    background-image:url(images/orange\ texture.jpg) ;
+    background-image:url(orange\ texture.jpg) ;
 }
 
 #para {
@@ -23,7 +23,7 @@ body{
   padding: 100px;
   margin-left: 0px;
   margin-right: 0px;
-  background-image:url(images/logo\ wallpaper.jpg) ;
+  background-image:url(logo\ wallpaper.jpg) ;
   text-align: center;
   color: whitesmoke;
 }
@@ -64,7 +64,7 @@ body{
   }
   #cities{
     text-align: center;
-    background-image: url(images/green\ texture.jpg);
+    background-image: url(green\ texture.jpg);
     color:whitesmoke;
   }
   table, th, td {
